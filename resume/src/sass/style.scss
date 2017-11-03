@@ -1,0 +1,23 @@
+#main-header img{
+	width:100%;
+	height:100%;
+}
+.bg-block{
+	color:#fff;
+	background:#000;
+}
+#main-header .main-flex{
+	width:30%;
+}
+#main-header .main-flex .fa{
+	font-size: 2em;
+}
+#main-header .main-flex:hover{
+	opacity: 0.8;
+	cursor: pointer;
+}
+@media(min-width: 1200px){
+    .main-flex{
+    	padding: 48px !important;
+    }
+}
